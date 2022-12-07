@@ -18,6 +18,7 @@
     - Crear columna de tabla que capitaliza el nombre
     - Crear botón que al pulsarlo cambie el dato de nombre
     - Crear botón que al pulsarlo cambie el dato de edad
+    - Crear módulo que llame a contador
 
 ![image](https://user-images.githubusercontent.com/88061350/206170856-8265b1ba-5c1a-4d34-a33b-be008b01e439.png)
 
@@ -29,6 +30,7 @@
     - Crear botón borrar que borre el último elemento de la lista
     - Cuando se borra un elemento mostrar el elemento borrado en un div (únicamente cuando se pulsa borrar y se borra elemento), cuando se añade elemento se debe dejar de mostrar el div de borrar elemento
     - Crear botón añadir que añada el argumento pasado por parámetro en la función
+    - Crear módulo que llame a heroes y a listado
 ### Cuando borra el último elemento
 ![image](https://user-images.githubusercontent.com/88061350/206181182-370f4c69-b14c-48ce-87b6-7130137cca92.png)
 ### Cuando añade un elemento a la lista pasado por argumento
