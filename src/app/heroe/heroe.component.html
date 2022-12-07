@@ -1,0 +1,26 @@
+<div class="heroes_container">
+    <div class="heroes_title">
+        <h1>Heroes app</h1>
+    </div>
+    <div class="heroes_table">
+        <table border="1">
+            <tr>
+                <th class="espaciador">Nombre</th>
+                <th class="espaciador">Edad</th>
+                <th class="espaciador">Función</th>
+                <th class="espaciador">Capitalizado</th>
+            </tr>
+            <tr>    
+                <td class="espaciador">{{nombre}}</td>
+                <td class="espaciador">{{edad}}</td>
+                <td class="espaciador">{{obtenerNombre()}}</td>
+                <td class="espaciador">{{capitalizar}}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="p-3" id="heroes_button">
+        <button class="btn btn-dark p-3 m-2" (click)="cambiarNombre('Batman')">Cambiar heroe</button>
+        <button class="btn btn-dark p-3 m-2" (click)="cambiarEdad(30)">Cambiar edad</button>
+    </div>
+    
+</div>

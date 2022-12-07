@@ -11,3 +11,12 @@
     - En angular.json en styles poner "node_modules/bootstrap/dist/css/bootstrap.min.css"
 ![image](https://user-images.githubusercontent.com/88061350/206145585-977f5c5d-2a4a-42a7-a452-5ebc1d98cdd4.png)
 
+## EJERCICIO 2: 
+    - Crear componente en carpeta herore mediante cli: ng generate component heroe
+    - Crear tabla con datos de nombre y edad
+    - Crear columna de tabla que concatene nombre y edad
+    - Crear columna de tabla que capitaliza el nombre
+    - Crear botón que al pulsarlo cambie el dato de nombre
+    - Crear botón que al pulsarlo cambie el dato de edad
+
+
