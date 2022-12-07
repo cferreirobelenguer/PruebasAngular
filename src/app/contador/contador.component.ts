@@ -7,15 +7,17 @@ import { Component } from '@angular/core';
 })
 export class ContadorComponent {
   public contador:number;
+  public base:number;
   constructor() {
     this.contador=20;
+    this.base=5;
   }
 
-  increment(valor:number){
-    this.contador+=valor
+  increment(base:number){
+    this.contador+=this.base
   }
-  decrement(valor:number){
-    this.contador-=valor
+  decrement(base:number){
+    this.contador-=this.base
   }
   resetValue(){
     this.contador=20

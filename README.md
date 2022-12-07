@@ -3,8 +3,9 @@
 ## EJERCICIO 1: CREAR CONTADOR
     - Crear componente en carpeta contador
     - Crear contador que se inicializa a 20
-    - Al pulsar +2 se incrementa de 2 en 2
-    - Al pulsar -2 se decrementa de 2 en 2
+    - Crear una base que se inicializa en 5
+    - Crear un botón que incremente con el valor de la base
+    - Crear un botón que decremente con el valor de la base
     - Al pulsar reset se resetea a 20
     - Instalar boostrap: npm install bootstrap jquery @popperjs/core
     - En angular.json en styles poner "node_modules/bootstrap/dist/css/bootstrap.min.css"
