@@ -11,11 +11,11 @@ export class ContadorComponent {
     this.contador=20;
   }
 
-  increment(){
-    this.contador+=1
+  increment(valor:number){
+    this.contador+=valor
   }
-  decrement(){
-    this.contador-=1
+  decrement(valor:number){
+    this.contador-=valor
   }
   resetValue(){
     this.contador=20
