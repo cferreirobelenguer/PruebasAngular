@@ -19,4 +19,7 @@
     - Crear botón que al pulsarlo cambie el dato de nombre
     - Crear botón que al pulsarlo cambie el dato de edad
 
+![image](https://user-images.githubusercontent.com/88061350/206170856-8265b1ba-5c1a-4d34-a33b-be008b01e439.png)
+
+
 
