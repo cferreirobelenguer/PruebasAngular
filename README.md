@@ -1,7 +1,7 @@
 # EJERCICIOS ANGULAR
 
 ## EJERCICIO 1: CREAR CONTADOR
-    - Crear componente en carpeta contador
+    - Crear componente en carpeta contador mediante cli:  ng generate component contador
     - Crear contador que se inicializa a 20
     - Crear una base que se inicializa en 5
     - Crear un botón que incremente con el valor de la base
