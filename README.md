@@ -9,4 +9,5 @@
     - Al pulsar reset se resetea a 20
     - Instalar boostrap: npm install bootstrap jquery @popperjs/core
     - En angular.json en styles poner "node_modules/bootstrap/dist/css/bootstrap.min.css"
-![image](https://user-images.githubusercontent.com/88061350/206144188-05483761-5d51-4023-8454-f27069a58638.png)
+![image](https://user-images.githubusercontent.com/88061350/206145585-977f5c5d-2a4a-42a7-a452-5ebc1d98cdd4.png)
+
