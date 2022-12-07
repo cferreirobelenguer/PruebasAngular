@@ -1,0 +1,25 @@
+.dbz_row{
+    margin: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.dbz_container{
+    padding: 20px;
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: bold;
+}
+.dbz_title{
+    font-weight: bold;
+    padding: 20px;
+}
+input{
+    display:block;
+    margin:5px;
+}

@@ -1,0 +1,28 @@
+
+<div class="dbz_row">
+    <div class="dbz_title">
+        <h1>Dragon Ball Z</h1>
+    </div>
+    <hr>
+    <div class="dbz_container">
+        <div class="col">
+            <h1 >Personajes</h1>
+            <ul>
+                <li *ngFor="let i of listado">{{i.nombre}}<br>{{i.poder}}</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Agregar:</h1>
+            <form   (ngSubmit)="agregarDatos()">
+                <p>
+                    <input type="text" placeholder="Nombre"  name="nombre" [(ngModel)]="nuevo.nombre"/>
+                </p>
+                <p>
+                    <input type="text" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder"/>
+                </p>
+                <input type="submit" value="Agregar" />
+            </form>
+        </div>
+    </div>
+    
+</div>

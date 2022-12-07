@@ -35,3 +35,9 @@
 ![image](https://user-images.githubusercontent.com/88061350/206181182-370f4c69-b14c-48ce-87b6-7130137cca92.png)
 ### Cuando añade un elemento a la lista pasado por argumento
 ![image](https://user-images.githubusercontent.com/88061350/206181259-75ddc2d9-66e9-49d6-a1d1-c61dfe4443da.png)
+
+## EJERCICIO 4: DRAGON BALL Z
+    - Crear componente en carpeta dbz mediante cli: meter en carpeta main-page dentro de dbz los estilos y el component-html
+    - Crear módulo que llame a dbz
+    -Crear dos bloques con flexbox de filas: Personajes y Agregar
+    - En agregar rear un formulario en el que se recogen los datos y se muestran en el bloque itulado como Personajes
