@@ -41,3 +41,4 @@
     - Crear módulo que llame a dbz
     -Crear dos bloques con flexbox de filas: Personajes y Agregar
     - En agregar rear un formulario en el que se recogen los datos y se muestran en el bloque itulado como Personajes
+![image](https://user-images.githubusercontent.com/88061350/206242374-b540834e-7fa9-441a-9caa-db0949f505f9.png)
