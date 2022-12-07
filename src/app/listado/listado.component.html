@@ -1,0 +1,18 @@
+<div class="listado_container">
+    <div class="listado_title">
+        <h1>Listado</h1>
+    </div>
+    <ul>
+        <li *ngFor="let heroe of listado; let i= index">
+            {{i+1}} - {{ heroe }}
+        </li>
+    </ul>
+    <div class="p-3">
+        <h3 *ngIf="show">El heroe borrado es: {{heroeBorrado}}</h3>
+    </div>
+    <div class="listado_button">
+        <button class="btn btn-success m-2 p-3" (click)="addArgument('Ironman')">Añadir</button>
+        <button class="btn btn-danger m-2 p-3" (click)="deleteArgument()">Borrar</button>
+    </div>
+
+</div>
