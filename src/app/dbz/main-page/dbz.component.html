@@ -7,13 +7,13 @@
     <div class="dbz_container">
         <div class="col">
             <!--Se pasa por props listado y se llama al componente hijo app-personajes-->
-            <app-personajes [listado]="listado">
+            <app-personajes>
             </app-personajes>
         </div>
         <div class="col">
             <app-agregar-datos 
                 [nuevo]="nuevo"
-                (onNuevoPersonaje)="agregarNuevoPersonaje($event)"
+                
             ></app-agregar-datos>
         </div>
     </div>

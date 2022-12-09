@@ -1,22 +1,22 @@
 import { Component } from '@angular/core';
 import { Personaje } from './interfaces/dbz.interface';
+import { DbzService } from './services/dbz.service';
 
 @Component({
   selector: 'app-dbz',
   templateUrl: './main-page/dbz.component.html',
   styleUrls: ['./main-page/dbz.component.css']
 })
-export class DbzComponent {
-  listado:Personaje[];
+export class DbzComponent  {
+  
   nuevo:Personaje={
     nombre:"",
     poder:0
   }
   
-  constructor(){
-    this.listado=[]
+  constructor(private dbzService:DbzService){
+    
   }
-  agregarNuevoPersonaje(nuevo:Personaje){
-    this.listado.push(nuevo)
-  }
+ 
+
 }

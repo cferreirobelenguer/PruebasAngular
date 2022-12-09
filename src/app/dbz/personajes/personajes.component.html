@@ -2,5 +2,9 @@
         Se pasa por props listado-->
     <h1>Personajes</h1>
             <ul>
-                <li *ngFor="let i of listado">{{i.nombre}}<br>{{i.poder}}</li>
+                <li *ngFor="let i of listado"
+                [ngClass]="{'green':i.nombre}">
+                    
+                    {{i.nombre}}<br>{{i.poder}}
+                </li>
             </ul>

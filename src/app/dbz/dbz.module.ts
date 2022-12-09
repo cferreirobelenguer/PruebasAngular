@@ -4,10 +4,12 @@ import { DbzComponent } from './dbz.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { PersonajesComponent } from './personajes/personajes.component';
 import { AgregarDatosComponent } from './agregar-datos/agregar-datos.component';
+import { DbzService } from './services/dbz.service';
 
-//Componentes importados en module
+
 
 @NgModule({
+  //Componentes importados en module
   declarations: [
     DbzComponent,
     PersonajesComponent,
@@ -17,10 +19,13 @@ import { AgregarDatosComponent } from './agregar-datos/agregar-datos.component';
     DbzComponent
   ],
   imports: [
+    //Modulos
     CommonModule,
     ReactiveFormsModule,
     FormsModule
-  ]
+  ],
+  //Servicios
+  providers: [DbzService]
   
 })
-export class dbzModule { }
+export class dbzModule {}
