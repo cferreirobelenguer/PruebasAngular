@@ -16,15 +16,5 @@ export class DbzComponent {
   constructor(){
     this.listado=[]
   }
-  agregarDatos(){
-    if(this.nuevo.nombre.trim().length===0){
-      return;
-    }
-    this.listado.push(this.nuevo);
-    this.nuevo={
-      nombre:"",
-      poder:0
-    }
-    console.log(this.listado)
-  }
+  
 }

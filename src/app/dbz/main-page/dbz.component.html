@@ -11,16 +11,7 @@
             </app-personajes>
         </div>
         <div class="col">
-            <h1>Agregar:</h1>
-            <form   (ngSubmit)="agregarDatos()">
-                <p>
-                    <input type="text" placeholder="Nombre"  name="nombre" [(ngModel)]="nuevo.nombre"/>
-                </p>
-                <p>
-                    <input type="text" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder"/>
-                </p>
-                <input type="submit" value="Agregar" />
-            </form>
+            <app-agregar-datos [listado]="listado" [nuevo]="nuevo" ></app-agregar-datos>
         </div>
     </div>
     

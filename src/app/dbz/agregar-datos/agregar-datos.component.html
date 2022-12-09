@@ -1,0 +1,11 @@
+<h1>Agregar:</h1>
+<!--Componente hijo que hereda de dbz cogiendo por props listado y nuevo y agrega los datos del input-->
+            <form   (ngSubmit)="agregarDatos()">
+                <p>
+                    <input type="text" placeholder="Nombre"  name="nombre" [(ngModel)]="nuevo.nombre"/>
+                </p>
+                <p>
+                    <input type="text" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder"/>
+                </p>
+                <input type="submit" value="Agregar" />
+            </form>
