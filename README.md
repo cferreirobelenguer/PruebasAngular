@@ -50,3 +50,4 @@
     - El componente giff-app es el que hace la petición a la api de ghipy
     - El componente hijo es el que muestra los resultados
     - Al pulsar un botón se muestra el título, imagen y el username del gif de manera aleatoria
+![image](https://user-images.githubusercontent.com/88061350/206713723-f2713b0f-90fa-4c6c-9be2-fa8116c42aa1.png)
