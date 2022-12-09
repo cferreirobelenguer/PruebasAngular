@@ -11,7 +11,10 @@
             </app-personajes>
         </div>
         <div class="col">
-            <app-agregar-datos [listado]="listado" [nuevo]="nuevo" ></app-agregar-datos>
+            <app-agregar-datos 
+                [nuevo]="nuevo"
+                (onNuevoPersonaje)="agregarNuevoPersonaje($event)"
+            ></app-agregar-datos>
         </div>
     </div>
     

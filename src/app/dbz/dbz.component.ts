@@ -16,5 +16,7 @@ export class DbzComponent {
   constructor(){
     this.listado=[]
   }
-  
+  agregarNuevoPersonaje(nuevo:Personaje){
+    this.listado.push(nuevo)
+  }
 }
