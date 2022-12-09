@@ -6,10 +6,9 @@
     <hr>
     <div class="dbz_container">
         <div class="col">
-            <h1 >Personajes</h1>
-            <ul>
-                <li *ngFor="let i of listado">{{i.nombre}}<br>{{i.poder}}</li>
-            </ul>
+            <!--Se pasa por props listado y se llama al componente hijo app-personajes-->
+            <app-personajes [listado]="listado">
+            </app-personajes>
         </div>
         <div class="col">
             <h1>Agregar:</h1>

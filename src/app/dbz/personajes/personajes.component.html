@@ -1,0 +1,6 @@
+    <!--Componente hijo que hereda de dbz y itera el listado de personajes de dragon ball
+        Se pasa por props listado-->
+    <h1>Personajes</h1>
+            <ul>
+                <li *ngFor="let i of listado">{{i.nombre}}<br>{{i.poder}}</li>
+            </ul>
