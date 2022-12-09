@@ -1,0 +1,17 @@
+<div class="gif_container">
+    <div class="gif_title">
+        <h1>App Gifts</h1>
+    </div>
+    <hr/>
+    <div class="gif_info">
+        <button
+            class="btn btn-primary p-2"
+            (click)="mostrar()"
+        >Mostrar gif aleatorio
+        </button>
+    </div>
+    <section>
+        <!-- app-imprimir es el componente hijo que hereda objetoGif que son los datos de la api-->
+        <app-imprimir [objetoGif]="objetoGif"></app-imprimir>
+    </section>
+</div>

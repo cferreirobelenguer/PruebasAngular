@@ -17,6 +17,6 @@ export class DbzComponent  {
   constructor(private dbzService:DbzService){
     
   }
- 
+
 
 }

@@ -41,4 +41,12 @@
     - Crear módulo que llame a dbz
     -Crear dos bloques con flexbox de filas: Personajes y Agregar
     - En agregar rear un formulario en el que se recogen los datos y se muestran en el bloque itulado como Personajes
+    - Crear servicio que coja los datos y los agrege al listado, los componentes se van a conectar a este servicio para coger el listado de personajes
 ![image](https://user-images.githubusercontent.com/88061350/206242374-b540834e-7fa9-441a-9caa-db0949f505f9.png)
+
+## EJERCICIO 5: CREAR APP DE GIF RANDOM
+
+    - Crear dos componentes el principal es giff-app y el componente hijo es imprimir
+    - El componente giff-app es el que hace la petición a la api de ghipy
+    - El componente hijo es el que muestra los resultados
+    - Al pulsar un botón se muestra el título, imagen y el username del gif de manera aleatoria
