@@ -56,4 +56,4 @@
     - Crear component llamado user
     - Crear un servicio llamado userService y hacer una llamada a la api https://reqres.in/api/users/2 para obtener un usuario
     - Imprimir los resultados en el componente maquetando con flexbox
-    
+ ![image](https://user-images.githubusercontent.com/88061350/207023998-d1c7b08e-9869-428c-82f1-bf67258ea532.png)   
