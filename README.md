@@ -84,3 +84,14 @@
 ![image](https://user-images.githubusercontent.com/88061350/207095464-12d7ebec-71b1-49c8-ad6d-64ce956559d7.png)
 ![image](https://user-images.githubusercontent.com/88061350/207095537-1a0b93d8-819f-4176-a625-4a156ad6e5e3.png)
 ![image](https://user-images.githubusercontent.com/88061350/207095619-d9354a60-054f-4729-a2c8-792c1cd08a56.png)
+
+
+## EJERCICIO 9: CALCULADORA CON CUSTOM PIPE
+    - Crea una calculadora usando pipe personalizados
+    - El usuario selecciona dos números en cada input, al pulsar el botón calcular se calcula:
+        . Sumar
+        . Restar
+        . Multiplicar
+        . División
+
+![image](https://user-images.githubusercontent.com/88061350/207106570-8a4545bc-dda8-421e-850e-57d0c5fa3de8.png)

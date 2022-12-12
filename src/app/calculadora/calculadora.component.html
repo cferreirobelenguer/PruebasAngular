@@ -1,0 +1,21 @@
+<div class="calcu_container">
+    <div class="calcu_title">
+        <h1>Calculadora</h1>
+    </div>
+    <div class="calcu_inputs">
+        <!--Se cogen los datos en ngModel-->
+        <input type="number" placeholder="Introduzca número" name="numero1" [(ngModel)]="numero1"/>
+        <input type="number" placeholder="Introduzca número" name="numero2" [(ngModel)]="numero2"/>
+    </div>
+    <div class="calcu_button p-5">
+        <button class="btn btn-dark p-3" (click)="enviarDatos()">Calcular</button>
+    </div>
+    <div class="calcu_result p-3">
+        <!--Calculo de los números escritos en el input-->
+        {{numero1| calculadora:numero2}}
+    </div>
+</div>
+
+
+
+

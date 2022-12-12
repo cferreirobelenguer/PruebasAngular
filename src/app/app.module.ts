@@ -10,6 +10,7 @@ import { AppUserModule } from './user-component/user-component.module';
 import { IdentificarModule } from './identificar/identificar.module';
 import { homeModule } from './home/home.module';
 import {routing,appRoutingProviers} from './app.routing';
+import { calculadoraModule } from './calculadora/calculadora.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {routing,appRoutingProviers} from './app.routing';
     AppUserModule,
     IdentificarModule,
     homeModule,
-    routing
+    routing,
+    calculadoraModule
   ],
   providers: [
     appRoutingProviers
