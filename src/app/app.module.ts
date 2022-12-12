@@ -6,6 +6,7 @@ import { HeroesModule } from './heroe/heroe.module';
 import { ContadorModule } from './contador/contador.module';
 import { dbzModule } from './dbz/dbz.module';
 import { GiffAppModule } from './giff-app/giff-app.module';
+import { AppUserModule } from './user-component/user-component.module';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { GiffAppModule } from './giff-app/giff-app.module';
     HeroesModule,
     ContadorModule,
     dbzModule,
-    GiffAppModule
+    GiffAppModule,
+    AppUserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

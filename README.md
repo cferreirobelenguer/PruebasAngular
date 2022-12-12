@@ -51,3 +51,9 @@
     - El componente hijo es el que muestra los resultados
     - Al pulsar un botón se muestra el título, imagen y el username del gif de manera aleatoria
 ![image](https://user-images.githubusercontent.com/88061350/206713723-f2713b0f-90fa-4c6c-9be2-fa8116c42aa1.png)
+
+## EJERCICIO 6: CREAR APP QUE IMPRIME USUARIO
+    - Crear component llamado user
+    - Crear un servicio llamado userService y hacer una llamada a la api https://reqres.in/api/users/2 para obtener un usuario
+    - Imprimir los resultados en el componente maquetando con flexbox
+    
