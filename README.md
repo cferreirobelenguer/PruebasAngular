@@ -71,4 +71,4 @@
 
 ### Vista de estar identificado
 
-![image](https://user-images.githubusercontent.com/88061350/207041988-73b19f52-ab72-4004-955c-9d93aa7cf51f.png)
+![image](https://user-images.githubusercontent.com/88061350/207046880-15d0753e-112d-4168-958b-b378af2dce99.png)
