@@ -7,6 +7,7 @@ import { ContadorModule } from './contador/contador.module';
 import { dbzModule } from './dbz/dbz.module';
 import { GiffAppModule } from './giff-app/giff-app.module';
 import { AppUserModule } from './user-component/user-component.module';
+import { IdentificarModule } from './identificar/identificar.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AppUserModule } from './user-component/user-component.module';
     ContadorModule,
     dbzModule,
     GiffAppModule,
-    AppUserModule
+    AppUserModule,
+    IdentificarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

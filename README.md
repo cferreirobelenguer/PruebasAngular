@@ -58,3 +58,10 @@
     - Imprimir los resultados obtenidos del id del input cuando se presiona enter en el componente maquetando con flexbox
     - Crear efecto de carga, cuando los datos aún no se han renderizado
 ![image](https://user-images.githubusercontent.com/88061350/207029911-cf34d9b4-98ea-44a2-9801-0438b5dca921.png)
+
+## EJERCICIO 7: PRACTICAR CON NG TEMPLATE
+
+    - Crear componente identificar
+    - Crer button identificar que al pulsar enter muestra otra vista que es que se ha identificado correctamente
+    - En la vista de la identificación correcta poner button de volver que vuelva a la vista anterior.
+

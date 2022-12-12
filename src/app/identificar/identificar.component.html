@@ -1,0 +1,24 @@
+<div *ngIf="useridentificate then SiIdentificado else NoIdentificado "></div>
+<ng-template #NoIdentificado>
+    <div class="usercard_container">
+        <div class="usercard_title">
+            <h1>Identifícate</h1>
+            <button class="btn btn-primary p-3" (click)="identificarUsuario()">Identificate</button>
+        </div>
+        <div class="usercard_image">
+            <img src="../../assets/user.jpg" alt="" class="img-fluid" width="500" height="500">
+        </div>
+    </div>
+</ng-template>
+<ng-template #SiIdentificado>
+    <div class="usercard_container">
+        <div class="usercard_title">
+            <h1> Te has identificado con éxito</h1> 
+        </div>
+        <div class="usercard_image">
+            <img src="../../assets/usercard.jpg" alt="" class="img-fluid" width="500" height="500">
+        </div>
+        <button class="btn btn-primary p-3" (click)="salirLogin()">Volver</button>
+    </div>
+    
+</ng-template>
