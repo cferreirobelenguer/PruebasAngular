@@ -1,6 +1,9 @@
-
-<!--Si existen los datos se imprimen, en caso contrario no se imprime nada-->
-<div class="user_container" *ngIf="datosTotales">
+<section class="user_card">
+    <div class="user_input">
+        <input type="text" name="id" [(ngModel)]="id" (keyup.enter)="cargarUsuario()" placeholder="Introduzca ID" />
+    </div>
+    <!--Si existen los datos se imprimen, en caso contrario no se imprime nada-->
+    <div class="user_container" *ngIf="datosTotales">
         <div class="user_imagen">
             <img src={{datosTotales.avatar}} alt="" width="200" height="200" className="img-fluid" id="imagen">
         </div>
@@ -15,4 +18,5 @@
                 <h2>LAST NAME: {{datosTotales.apellidos}}</h2>
             </div>
         </div>
-</div>
+    </div>
+</section>

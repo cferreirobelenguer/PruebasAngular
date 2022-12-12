@@ -10,9 +10,9 @@ export class UserService{
         this.url='https://reqres.in/'
     }
 
-    getUser(): Observable<any>{
+    getUser(id:string): Observable<any>{
         //Petición ajax por http 
-        return this._http.get(this.url+'api/users/2')
+        return this._http.get(this.url+'api/users/'+id)
     }
 
 

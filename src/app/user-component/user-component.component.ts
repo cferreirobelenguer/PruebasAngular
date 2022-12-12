@@ -13,6 +13,7 @@ import { datosUser } from './interfaces/userInterface';
 export class UserComponentComponent implements OnInit {
   
   public datosTotales:datosUser;
+  public id:string="1";
   constructor(private _UserService:UserService){
     this.datosTotales={
       id:"",
@@ -23,7 +24,10 @@ export class UserComponentComponent implements OnInit {
     }
   }
   ngOnInit() {
-    this._UserService.getUser().subscribe(
+    this.cargarUsuario()
+  }
+  cargarUsuario(){
+    this._UserService.getUser(this.id).subscribe(
       result=>{
         
         this.datosTotales={

@@ -53,7 +53,7 @@
 ![image](https://user-images.githubusercontent.com/88061350/206713723-f2713b0f-90fa-4c6c-9be2-fa8116c42aa1.png)
 
 ## EJERCICIO 6: CREAR APP QUE IMPRIME USUARIO
-    - Crear component llamado user
+    - Crear component llamado user que tenga un input que recoge el id
     - Crear un servicio llamado userService y hacer una llamada a la api https://reqres.in/api/users/2 para obtener un usuario
-    - Imprimir los resultados en el componente maquetando con flexbox
- ![image](https://user-images.githubusercontent.com/88061350/207023998-d1c7b08e-9869-428c-82f1-bf67258ea532.png)   
+    - Imprimir los resultados obtenidos del id del input cuando se presiona enter en el componente maquetando con flexbox
+![image](https://user-images.githubusercontent.com/88061350/207029911-cf34d9b4-98ea-44a2-9801-0438b5dca921.png)
