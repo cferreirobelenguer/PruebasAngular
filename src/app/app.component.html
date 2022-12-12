@@ -31,13 +31,13 @@
     <!--navBar de rutas del ejercicio 8-->
     <nav class="nav">
       <div class="items">
-        <a [routerLink]="['/']">Home</a>
+        <a [routerLink]="['/']" [routerLinkActive]="['activado']">Home</a>
       </div>
       <div class="items">
-        <a [routerLink]="['/nosotros']">Sobre Nosotros</a>
+        <a [routerLink]="['/nosotros']" [routerLinkActive]="['activado']">Sobre Nosotros</a>
       </div>
       <div class="items">
-        <a [routerLink]="['/contacto']">Contacto</a>
+        <a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">Contacto</a>
       </div>
     </nav>
     <router-outlet></router-outlet>

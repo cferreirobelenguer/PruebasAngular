@@ -77,5 +77,10 @@
 
     - Crea tres rutas: una de home, otra de contacto y otra de nosotros con sus respectivos componentes
     - Crea un navBar en el cual cuando se pulse a home lleve a la ruta home, si se pulsa a sobre nosotros lleve a la ruta nosotros y si se pulsa contacto lleve a la ruta contacto.
+    - Crea en las vistas de sobre noostros y contacto un botón de volver a home que cuando se pulsa lleve a la vista de home.
 
-![image](https://user-images.githubusercontent.com/88061350/207087696-707e5d17-4f94-4302-a2b5-8dd5941aca6c.png)
+
+
+![image](https://user-images.githubusercontent.com/88061350/207095464-12d7ebec-71b1-49c8-ad6d-64ce956559d7.png)
+![image](https://user-images.githubusercontent.com/88061350/207095537-1a0b93d8-819f-4176-a625-4a156ad6e5e3.png)
+![image](https://user-images.githubusercontent.com/88061350/207095619-d9354a60-054f-4729-a2c8-792c1cd08a56.png)
