@@ -2,6 +2,9 @@
     <div class="user_input">
         <input type="text" name="id" [(ngModel)]="id" (keyup.enter)="cargarUsuario()" placeholder="Introduzca ID" />
     </div>
+    <div  *ngIf="!user">
+        <img src="../../assets/cargando.gif" width="400" height="400" class="img-fluid">
+    </div>
     <!--Si existen los datos se imprimen, en caso contrario no se imprime nada-->
     <div class="user_container" *ngIf="datosTotales">
         <div class="user_imagen">

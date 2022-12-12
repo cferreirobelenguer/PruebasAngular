@@ -14,6 +14,7 @@ export class UserComponentComponent implements OnInit {
   
   public datosTotales:datosUser;
   public id:string="1";
+  public user:boolean=false;
   constructor(private _UserService:UserService){
     this.datosTotales={
       id:"",
@@ -27,6 +28,7 @@ export class UserComponentComponent implements OnInit {
     this.cargarUsuario()
   }
   cargarUsuario(){
+    this.user=false;
     this._UserService.getUser(this.id).subscribe(
       result=>{
         
@@ -37,6 +39,7 @@ export class UserComponentComponent implements OnInit {
           apellidos:result.data.last_name,
           avatar:result.data.avatar
         }
+        this.user=true;
         
       },
       error=>{

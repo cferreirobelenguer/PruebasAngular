@@ -56,4 +56,5 @@
     - Crear component llamado user que tenga un input que recoge el id
     - Crear un servicio llamado userService y hacer una llamada a la api https://reqres.in/api/users/2 para obtener un usuario
     - Imprimir los resultados obtenidos del id del input cuando se presiona enter en el componente maquetando con flexbox
+    - Crear efecto de carga, cuando los datos aún no se han renderizado
 ![image](https://user-images.githubusercontent.com/88061350/207029911-cf34d9b4-98ea-44a2-9801-0438b5dca921.png)
