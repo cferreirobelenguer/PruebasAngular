@@ -26,5 +26,21 @@
   </div>
   <hr/>
   <app-identificar></app-identificar>
+  <hr/>
+  <div>
+    <!--navBar de rutas del ejercicio 8-->
+    <nav class="nav">
+      <div class="items">
+        <a [routerLink]="['/']">Home</a>
+      </div>
+      <div class="items">
+        <a [routerLink]="['nosotros']">Sobre Nosotros</a>
+      </div>
+      <div class="items">
+        <a [routerLink]="['contacto']">Contacto</a>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
 </div>
 

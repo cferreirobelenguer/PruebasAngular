@@ -72,3 +72,10 @@
 ### Vista de estar identificado
 
 ![image](https://user-images.githubusercontent.com/88061350/207046880-15d0753e-112d-4168-958b-b378af2dce99.png)
+
+## EJERCICIO 8: EJERCICIO DE RUTAS
+
+    - Crea tres rutas: una de home, otra de contacto y otra de nosotros con sus respectivos componentes
+    - Crea un navBar en el cual cuando se pulse a home lleve a la ruta home, si se pulsa a sobre nosotros lleve a la ruta nosotros y si se pulsa contacto lleve a la ruta contacto.
+
+![image](https://user-images.githubusercontent.com/88061350/207087696-707e5d17-4f94-4302-a2b5-8dd5941aca6c.png)

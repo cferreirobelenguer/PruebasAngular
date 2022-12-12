@@ -8,7 +8,8 @@ import { dbzModule } from './dbz/dbz.module';
 import { GiffAppModule } from './giff-app/giff-app.module';
 import { AppUserModule } from './user-component/user-component.module';
 import { IdentificarModule } from './identificar/identificar.module';
-
+import { homeModule } from './home/home.module';
+import {routing,appRoutingProviers} from './app.routing';
 
 @NgModule({
   declarations: [
@@ -21,9 +22,13 @@ import { IdentificarModule } from './identificar/identificar.module';
     dbzModule,
     GiffAppModule,
     AppUserModule,
-    IdentificarModule
+    IdentificarModule,
+    homeModule,
+    routing
   ],
-  providers: [],
+  providers: [
+    appRoutingProviers
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
