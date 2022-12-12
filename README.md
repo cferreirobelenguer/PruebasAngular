@@ -65,3 +65,10 @@
     - Crer button identificar que al pulsar enter muestra otra vista que es que se ha identificado correctamente
     - En la vista de la identificación correcta poner button de volver que vuelva a la vista anterior.
 
+### Vista de no estar identificado
+
+![image](https://user-images.githubusercontent.com/88061350/207041905-1c1b4822-c7df-4cde-b624-51bc4d28551d.png)
+
+### Vista de estar identificado
+
+![image](https://user-images.githubusercontent.com/88061350/207041988-73b19f52-ab72-4004-955c-9d93aa7cf51f.png)
